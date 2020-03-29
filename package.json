@@ -1,0 +1,27 @@
+{
+  "name": "api-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel-node src/index.js --out-file index-compiled.js",
+    "dev": "nodemon -e js,graphql,gql --exec babel-node index.js",
+    "prod": "node index-compiled.js"
+  },
+  "dependencies": {
+    "@sindresorhus/to-milliseconds": "^1.2.0",
+    "apollo-datasource-rest": "^0.8.0",
+    "apollo-server": "^2.11.0",
+    "date-fns": "^2.11.1",
+    "graphql": "^14.6.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-plugin-import-graphql": "^2.7.0",
+    "babel-preset-latest-node": "^3.2.1",
+    "nodemon": "^1.19.3"
+  }
+}
