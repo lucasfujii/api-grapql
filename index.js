@@ -1,8 +1,8 @@
 import { ApolloServer } from 'apollo-server';
 
-import { RestAPI } from './api';
-import typeDefs from './typeDefs.gql';
-import resolvers from './resolvers';
+import { RestAPI } from './src/providers/api';
+import typeDefs from './src/modules/colaborator/typeDefs.gql';
+import resolvers from './src/modules/colaborator/resolvers';
 
 const server = new ApolloServer({ 
   typeDefs, 
