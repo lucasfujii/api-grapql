@@ -58,9 +58,9 @@ Estrutura básica do Feedback
 Exemplo de request para cadastro de um feedback
 
     {
-	"collaboratorId": "1",
-	"message": "it's very proactive!",
-	"like": 3
+	   "collaboratorId": "1",
+	   "message": "it's very proactive!",
+	   "like": 3
     }
 
 
