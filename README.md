@@ -66,7 +66,7 @@ Exemplo de request para cadastro de um feedback
 
 ### API GraphQl construída
 
-Foi decido usar a implementação do Apollo(https://www.apollographql.com/) para a criação da mesma, 
+Foi decidido usar a implementação do Apollo(https://www.apollographql.com/) para a criação da mesma, 
 pois é o framework com maior maturidade e utilização atualmente, além de contar com excelente documentação.
 
 As tecnologias, frameworks e ferramentas usadas para construir a aplicação foram:
