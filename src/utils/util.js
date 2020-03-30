@@ -7,7 +7,7 @@ import * as R from 'ramda';
     return {...input};    
  }
 
- export const isDeleteFeedbacks = (dateNow, dateFeedback) => {
+ export const isDeleteFeedback = (dateNow, dateFeedback) => {
    const timelimit = 300000;
 
    return result = differenceInMilliseconds(dateNow, parseISO(dateFeedback)) < timelimit;    
