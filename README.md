@@ -33,7 +33,7 @@ Estrutura básica do Colaborador
        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/adobi/128.jpg",
        "company": "Cummerata, Upton and Gulgowski",
        "role": "Analyst"
-   }
+     }
 
 Estrutura básica do Feedback
 
@@ -52,19 +52,19 @@ Estrutura básica do Feedback
 		   "message": "you are an excellent analyst!",
 		   "like": 7
 	   }	   
-	]   
+     ]
 
 
 Exemplo de request para cadastro de um feedback
 
     {
-	   "collaboratorId": "1",
-	   "message": "it's very proactive!",
-	   "like": 3
-	}
+	"collaboratorId": "1",
+	"message": "it's very proactive!",
+	"like": 3
+    }
 
 
-### API GraphQl construida
+### API GraphQl construída
 
 Foi decido usar a implementação do Apollo(https://www.apollographql.com/) para a criação da mesma, 
 pois é o framework com maior maturidade e utilização atualmente, além de contar com excelente documentação.
