@@ -11,7 +11,7 @@
   "dependencies": {
     "@sindresorhus/to-milliseconds": "^1.2.0",
     "apollo-datasource-rest": "^0.8.0",
-    "apollo-server": "^2.11.0",
+    "apollo-server": "^2.25.4",
     "date-fns": "^2.11.1",
     "graphql": "^14.6.0",
     "ramda": "^0.26.1"
